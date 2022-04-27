@@ -1,0 +1,32 @@
+{
+  "automation_session": {
+    "name": "first_test",
+    "duration": 26,
+    "os": "android",
+    "os_version": "9.0",
+    "browser_version": "app",
+    "browser": null,
+    "device": "Google Pixel 3",
+    "status": "done",
+    "hashed_id": "3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7",
+    "reason": "CLIENT_STOPPED_SESSION",
+    "build_name": "browserstack-build-1",
+    "project_name": "First Java Project",
+    "build_hashed_id": "f5e0be029eab9e7586d22584710aabb7f9d101ec",
+    "logs": "https://app-automate.browserstack.com/builds/f5e0be029eab9e7586d22584710aabb7f9d101ec/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7/logs",
+    "browserstack_status": "done",
+    "created_at": "2022-03-11T18:52:41.000Z",
+    "browser_url": "https://app-automate.browserstack.com/builds/f5e0be029eab9e7586d22584710aabb7f9d101ec/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7",
+    "public_url": "https://app-automate.browserstack.com/builds/f5e0be029eab9e7586d22584710aabb7f9d101ec/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7?auth_token=f2ebc7712fd4ad3ee5e9ab56a45a9536f9867b94564ff35586bdbd197164623c",
+    "video_url": "https://app-automate.browserstack.com/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7/video?token=YkxRZHpGaE1tSVdRQlRvc0MvM3JXS2tBdFFpY1hIc21ZSTR6NFFjUnhXcktsTWdhZWZpekdRVDVHSjBZZVdwKzlQTGllK0RURUVFNXZrenp0eml6Y2c9PS0tbytDU0JObEZRUXIydURJVVB2L3Qwdz09--494f3f318c38e3d7f0760e0702ec866f5b63a9e5\u0026source=rest_api\u0026diff=5.253521754",
+    "appium_logs_url": "https://api.browserstack.com/app-automate/builds/f5e0be029eab9e7586d22584710aabb7f9d101ec/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7/appiumlogs",
+    "device_logs_url": "https://api.browserstack.com/app-automate/builds/f5e0be029eab9e7586d22584710aabb7f9d101ec/sessions/3b3209a6411b5142fc2ca2eee5b2b79fbfa1d5a7/devicelogs",
+    "app_details": {
+      "app_url": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
+      "app_name": "org.wikipedia.alpha",
+      "app_version": "2.5.194-alpha-2017-05-30",
+      "app_custom_id": null,
+      "uploaded_at": "2019-09-25T10:02:11.000Z"
+    }
+  }
+}
