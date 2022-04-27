@@ -13,22 +13,22 @@ public class NewWikiMobileTest extends TestBase {
 
     @Test
     void searchNewWikiTest() {
-            step("Verify First Page Getting Started", () -> {
+            step("Verify First Welcome Page", () -> {
                 $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView"))
                         .shouldHave(Condition.text("The Free Encyclopedia …in over 300 languages"));
                 $(AppiumBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
             });
-            step("Verify Second Page Getting Started", () -> {
+            step("Verify Second Welcome Page", () -> {
                 $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView"))
                         .shouldHave(Condition.text("New ways to explore"));
                 $(AppiumBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
             });
-            step("Verify Third Page Getting Started", () -> {
+            step("Verify Third Welcome Page", () -> {
                 $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView"))
                         .shouldHave(Condition.text("Reading lists with sync"));
                 $(AppiumBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
             });
-            step("Verify Fourth Page Getting Started", () -> {
+            step("Verify Fourth Welcome Page", () -> {
                 $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView"))
                         .shouldHave(Condition.text("Send anonymous data"));
                 $(AppiumBy.id("org.wikipedia.alpha:id/fragment_onboarding_done_button")).click();
@@ -39,6 +39,5 @@ public class NewWikiMobileTest extends TestBase {
             });
             step("Verify content found", () ->
                     $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title")).shouldHave(sizeGreaterThan(0)));
-
         }
     }
