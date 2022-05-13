@@ -2,6 +2,7 @@ package tests.emulator;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
@@ -12,6 +13,7 @@ import static io.qameta.allure.Allure.step;
 public class NewWikiMobileTest extends TestBase {
 
     @Test
+    @DisplayName("Проверка стартовых экранов и поиска в приложении")
     void searchNewWikiTest() {
             step("Verify First Welcome Page", () -> {
                 $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView"))
