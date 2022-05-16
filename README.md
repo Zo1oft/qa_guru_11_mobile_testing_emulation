@@ -22,7 +22,7 @@
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Browserstack" src="images/logo/browserstack-icon.svg">
-<img width="9%" title="Appium" src="images/logo/appium.png">
+<img width="9%" title="Appium" src="images/logo/Appium.png">
 </p>
 
 ## :point_up_2: Проведенный автотест
