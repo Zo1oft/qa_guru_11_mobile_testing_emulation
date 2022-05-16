@@ -4,7 +4,7 @@
 ## :point_up: Структура:
 
 - <a href="#point_up_2-стек">Стек</a>
-- <a href="#point_up_2-проведенные автотесты">Проведенные автотесты</a>
+- <a href="#point_up_2-проведенные автотесты">Проведенный автотест</a>
 - <a href="#point_up_2-сборка-в-Jenkins">Сборка в Jenkins</a>
 - <a href="#point_up_2-сборка-в-Jenkins">Особенности сборки в Jenkins</a>
 - <a href="#point_up_2-запуск-из-терминала">Запуск из терминала</a>
@@ -22,9 +22,10 @@
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Browserstack" src="images/logo/browserstack-icon.svg">
+<img width="9%" title="Appium" src="images/logo/appium.png">
 </p>
 
-## :point_up_2: Проведенные автотесты
+## :point_up_2: Проведенный автотест
 - Проверка стартовых экранов и поиска в приложении
 
 ## :point_up_2: Сборка в Jenkins
@@ -54,8 +55,7 @@ gradle clean test DdeviceHost=browserstack / emulation / real
 <img title="Allure Test Page" src="images/screenshots/Allure-suites.png">
 </p>
 
-## :point_up_2: Видео примеры прохождения тестов
-> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+## :point_up_2: Видео пример прохождения теста
 <p align="center">
   <img title="Selenoid Video" src="images/Video/wikitest.gif">
 </p>
