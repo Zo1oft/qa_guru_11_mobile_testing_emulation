@@ -47,12 +47,12 @@ gradle clean test DdeviceHost=browserstack / emulation / real
 ## :point_up_2: Allure отчет
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/Allure.png">
+<img title="Allure Overview Dashboard" src="images/Screenshots/Allure.png">
 </p>
 
 - ### Страница с проведенным тестом
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/Allure-suites.png">
+<img title="Allure Test Page" src="images/Screenshots/Allure-suites.png">
 </p>
 
 ## :point_up_2: Видео пример прохождения теста
