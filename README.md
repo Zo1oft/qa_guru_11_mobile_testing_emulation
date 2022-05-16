@@ -1,9 +1,9 @@
 # Проект по автоматизации UI тестирования мобильного приложения Wikipedia
-<a href="https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest"><img width="30%" title="Boxberry" src="images/Wikipedia-logo.svg.png"></a>
+<p align="center"></p><a href="https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest"><img width="30%" title="Boxberry" src="images/Wikipedia-logo.svg.png"></a>
 
 ## :point_up: Структура:
 
-- <a href="#point_up_2-технологии-и-инструменты">Стек</a>
+- <a href="#point_up_2-стек">Стек</a>
 - <a href="#point_up_2-проведенные автотесты">Проведенные автотесты</a>
 - <a href="#point_up_2-сборка-в-Jenkins">Сборка в Jenkins</a>
 - <a href="#point_up_2-сборка-в-Jenkins">Особенности сборки в Jenkins</a>
@@ -35,7 +35,7 @@
 
 ### Особенности сборки в Jenkins:
 
-- сборку можно запустить как через сервис Browserstack так и через Appium и с помощью реального подключенгного телефона.
+- сборку можно запустить как через сервис Browserstack так и через Appium и с помощью реального подключенного телефона.
 
 ## :point_up_2: Запуск из терминала
 
